@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
     /* position: relative; */
-   
+    /* display: block;
+   padding-bottom: 50px; */
 }
 
 /* 现在布局 无论pC还是移动 */
