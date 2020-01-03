@@ -14,6 +14,7 @@ header {
     box-sizing: border-box;
     overflow: hidden;
     z-index: 5;
+
     /* margin-bottom: 45px; */
 }
 
@@ -243,6 +244,7 @@ footer .bottom {
 .bottom li:nth-child(4)::after {
     content: "";
     position: absolute;
+
     top: 2px;
     left: 50%;
     margin-left: -10px;
@@ -268,4 +270,187 @@ footer .bottom {
 
 .title {
     background-color: #cfbb98;
+}
+
+main {
+    width: 100%;
+}
+
+.top {
+    width: 100%;
+    padding-top: 45px;
+}
+
+.top img {
+    width: 100%;
+}
+
+.finditem {
+    text-align: center;
+    width: 100%;
+
+}
+
+.finditem {
+    margin-bottom: 0.6rem;
+    margin-top: 0.5rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.finditem-title {
+    position: relative;
+}
+
+.finditem-title i {
+    position: absolute;
+    top: 0;
+    left: 36%;
+    background: url(../image/findtitleIcon.jfif);
+    width: 22px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.finditem-table {
+    margin-top: 0.8rem;
+    width: 76%;
+    text-align: center;
+    font-size: 0.36rem;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.table-left {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.table-left li {
+    float: left;
+    width: 27%;
+    border-right: 1px solid #D1CFCE;
+}
+
+.f1 {
+
+    border-top: 1px solid #333333;
+}
+
+.table-left li {
+    position: relative;
+    float: left;
+}
+
+.table-left a {
+    display: block;
+    line-height: 2.6rem;
+    display: inline-block;
+    width: 100%;
+    color: #888;
+}
+
+.table-left li:nth-child(1) a::after {
+    content: "";
+    width: 27px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    background: url(../image/findtableIcon.jfif) no-repeat;
+    top: 0;
+    left: 50%;
+    margin-left: -14px;
+    background-position: 0px -155px;
+}
+
+.table-left li:nth-child(2) {
+    width: 44%;
+}
+
+.table-left li:nth-child(2) a::after {
+    content: "";
+    width: 27px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    background: url(../image/findtableIcon.jfif) no-repeat;
+    top: 0;
+    left: 50%;
+    margin-left: -14px;
+    background-position: 0px -126px;
+}
+
+.table-left li:nth-child(3) a::after {
+    content: "";
+    width: 27px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    background: url(../image/findtableIcon.jfif) no-repeat;
+    top: 0;
+    left: 50%;
+    margin-left: -14px;
+    background-position: 0px -182px;
+}
+
+.finditem-table-1 {
+    width: 76%;
+    margin: auto;
+    text-align: center;
+    font-size: 0.36rem;
+    font-weight: bold;
+    border-top: 1px solid #333333;
+}
+
+.table-left-1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.table-left-1 li {
+    border-top: 1px solid #888;
+    border-right: 1px solid #888;
+    width: 27%;
+    position: relative;
+    float: left;
+}
+
+.table-left-1 a {
+    display: block;
+    line-height: 1.5rem;
+    width: 100%;
+    color: #888;
+}
+
+.table-left-1 li::after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    background: url(../image/findtableIcon.jfif) no-repeat;
+    height: 17px;
+    background-size: 15px auto;
+    width: 20px;
+    left: 5%;
+}
+
+.table-left-1 li:nth-child(2),
+.table-left-1 li:nth-child(5),
+.table-left-1 li:nth-child(8) {
+    width: 44%;
+}
+
+.table-left-1 li:nth-child(2)::after,
+.table-left-1 li:nth-child(5)::after,
+.table-left-1 li:nth-child(8)::after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    background: url(../image/findtableIcon.jfif) no-repeat;
+    height: 17px;
+    background-size: 15px auto;
+    width: 20px;
+    left: 20%;
 }
