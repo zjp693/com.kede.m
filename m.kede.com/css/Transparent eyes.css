@@ -115,26 +115,24 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    display: block;
-
-    margin-top: 2rem;
+    overflow: hidden;
     z-index: 5;
 }
 
-.nav-2 a {
+.nav-2 li {
     position: relative;
-    color: #fff;
     display: inline-block;
     font-size: 14px;
     padding: 31px 0 3px;
     height: 1.3rem;
     text-align: center;
-    width: 19.24%;
+    /* width: 19.24%; */
+    width: 20%;
     box-sizing: border-box;
     background-color: #cccc;
 }
 
-.nav-2 a:nth-child(1) {
+.nav-2 li:nth-child(1) {
     background-color: #cfbb98;
 }
 
@@ -144,13 +142,14 @@
     background-color: #fff;
 }
 
-.nav-2 li {
+.nav-2 a {
     /* display: inline-block; */
+    color: #fff;
 
     width: 100%;
 }
 
-.nav-2 a:nth-child(1) s {
+.nav-2 li:nth-child(1) s {
     background: url(../image/newfootnav.jfif) no-repeat;
     background-size: 20px auto;
     /* display: block; */
@@ -163,9 +162,10 @@
 
 }
 
-.nav-2 a:nth-child(2) s {
+.nav-2 li:nth-child(2) s {
     background: url(../image/newfootnav.jfif) no-repeat;
     background-size: 20px auto;
+    background-position: 0px -18px;
     /* display: block; */
     height: 20px;
     width: 20px;
@@ -175,9 +175,22 @@
     margin-left: -10px;
 }
 
-.nav-2 a:nth-child(3) s {
+.nav-2 li:nth-child(3) s {
+    background: url(../image/earth.jfif) no-repeat;
+    background-size: 20px auto;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    margin-left: -10px;
+
+}
+
+.nav-2 li:nth-child(4) s {
     background: url(../image/newfootnav.jfif) no-repeat;
     background-size: 20px auto;
+    background-position: 0px -38px;
     height: 20px;
     width: 20px;
     position: absolute;
@@ -186,20 +199,10 @@
     margin-left: -10px;
 }
 
-.nav-2 a:nth-child(4) s {
+.nav-2 li:nth-child(5) s {
     background: url(../image/newfootnav.jfif) no-repeat;
     background-size: 20px auto;
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    top: 6px;
-    left: 50%;
-    margin-left: -10px;
-}
-
-.nav-2 a:nth-child(5) s {
-    background: url(../image/newfootnav.jfif) no-repeat;
-    background-size: 20px auto;
+    background-position: 0px -59px;
     height: 20px;
     width: 20px;
     position: absolute;
@@ -380,4 +383,3 @@
     background: url(../upload/btn1.jfif) no-repeat;
     background-size: contain;
 }
-
